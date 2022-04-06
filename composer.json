@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php": "^7.4.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-soap": "*",
+        "ext-exif": "*",
+        "ext-imagick": "*",
+        "ext-gd": "*"
+    }
+}
