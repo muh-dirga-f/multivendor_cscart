@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /release-4.14.2/addons/master_products.po\n"
+"X-Crowdin-File-ID: 5843\n"
+"PO-Revision-Date: 2022-01-25 13:39\n"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors"
+msgstr "Wspólne produkty dla sprzedawców"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "Umożliwia utworzenie pojedynczej bazy produktów: sprzedawcy wybierają, które z istniejących produktów sprzedają."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "Pozwól sprzedawcom tworzyć produkty"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "Jeśli na to nie zezwolisz, sprzedawcy będą mogli sprzedawać tylko produkty, które dodałeś do marketplace."
+
+msgctxt "SettingsOptions::master_products::allow_buy_default_common_product"
+msgid "Buy a default common product"
+msgstr "Kup domyślny wspólny produkt"
+
+msgctxt "SettingsTooltips::master_products::allow_buy_default_common_product"
+msgid "The \"Add to cart\" button will appear next to the product (not just its offers) and select the best offer available."
+msgstr "Obok produktu (nie tylko jego oferty) pojawi się przycisk \"Dodaj do koszyka\" i wybierz najlepszą dostępną ofertę."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "Sprzedawcy tego produktu"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "Sprzedawcy tego produktu"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "Sprzedawcy produktu"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "Produkty, które sprzedawcy mogą sprzedawać"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "Produkty sprzedawane"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "Wszystkie produkty"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "Dodawanie produktów z katalogu"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "Tworzenie nowego produktu"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "Sprzedawaj ten"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "Na sprzedaż"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "Sprzedawaj wybrane"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] produkt został dodany do Twojej bazy produktów | [n] produktów zostało dodanych do Twojej bazy produktów"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "Wspólne produkty"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "Wszystkich sprzedawców (wspólny produkt)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "Produkty do eksportu"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "Od ceny [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr "Oferta sprzedawcy"
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr "Wspólne produkty dla sprzedawców: dodatek działa teraz tylko z opcjami globalnymi"
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr "<p>Ze względów technicznych dodatek <b>[master_product_addon]</b> działa teraz tylko z opcjami globalnymi. Jeśli jakikolwiek sprzedawca sprzedaje wspólny produkt, to podczas aktualizacji dokonaliśmy już konwersji wszystkich opcji z tego produktu na globalne opcje.</p>"
+
+msgctxt "Languages::master_products.view_product_offers"
+msgid "See all offers"
+msgstr "Zobacz wszystkie oferty"
+
+msgctxt "Languages::master_products.product_type.offer_variation"
+msgid "Vendor variation offer"
+msgstr "Oferta wariantów sprzedawcy"
+
+msgctxt "Languages::master_products.resave_after_show_out_of_stock_products_changed"
+msgid "You've changed the <b>Show out of stock products</b> setting. Please export <a href=\"[url]\">all your catalog items</a> (use \"Export found products\" in the gear button) and reimport them. This will ensure that the displayed price of common products will always remain correct until you change the setting again."
+msgstr "Zmieniłeś ustawienie <b>Pokaż niedostępne produkty</b>. Wyeksportuj <a href=\"[url]\"> wszystkie elementy katalogu</a> (użyj przycisku „Eksportuj znalezione produkty” na przycisku koła zębatego) i ponownie je zaimportuj. Spowoduje to, że wyświetlana cena popularnych produktów zawsze będzie poprawna do momentu ponownej zmiany ustawienia."
+
+msgctxt "Languages::master_products.save_up_to"
+msgid "Save up to"
+msgstr "Zaoszczędź do"
+
+msgctxt "Languages::master_products.buy_together_info_message_for_admin"
+msgid "Only vendors can add product combinations. To add a combination for a common product, first log in as one of the vendors that sell it."
+msgstr "Tylko sprzedawcy mogą dodawać kombinacje produktów. Aby dodać kombinację dla wspólnego produktu, najpierw zaloguj się jako jeden ze sprzedawców, który go sprzedaje."
+
+msgctxt "Languages::master_products.buy_together_info_message_for_vendor"
+msgid "To add a combination for a common product, <a class=\"cm-post\" href=\"[href]\">start selling it</a> first."
+msgstr "Aby dodać kombinację dla wspólnego produktu, <a class=\"cm-post\" href=\"[href]\">zacznij go sprzedawać</a>."
+
+msgctxt "Languages::master_products.changing_owner_is_not_available"
+msgid "Couldn't change the owner of the product because some vendors still sell it. Please delete <a href=\"[vendors_offers_link]\" target=\"_blank\">vendors' offers</a> before changing the owner of this product."
+msgstr "Nie udało się zmienić właściciela produktu, ponieważ niektórzy sprzedawcy nadal go sprzedają. Usuń <a href=\"[vendors_offers_link]\" target=\"_blank\">oferty sprzedawców</a> przed zmianą właściciela tego produktu."
+
+msgctxt "Languages::master_products.product_bundles_info"
+msgid "Only vendors can add product bundles. To add a bundle for a common product, first log in as one of the vendors that sell it."
+msgstr "Tylko sprzedawcy mogą dodawać pakiety produktów. Aby dodać pakiet dla wspólnego produktu, najpierw zaloguj się jako jeden ze sprzedawców, którzy go sprzedają."
+
+msgctxt "Languages::master_products.best_price"
+msgid "[formatted_price] (<a class=\"[link_class]\" data-ca-scroll=\"[data_scroll]\" [other_offers_link]>and other offers</a>)"
+msgstr "[formatted_price] (<a class=\"[link_class]\" data-ca-scroll=\"[data_scroll]\" [other_offers_link]>i inne oferty</a>)"
+
+msgctxt "Languages::master_products.upgrade_notification.title_add_allow_buy_default_common_product_setting"
+msgid "\"Common products for vendors\" are now easier to buy"
+msgstr "\"Wspólne produkty dla sprzedawców\" są teraz łatwiejsze do kupienia"
+
+msgctxt "Languages::master_products.upgrade_notification.message_add_allow_buy_default_common_product_setting"
+msgid "Previously, customers had to open the product page and choose one of the offers from vendors. Now they'll be able to add a common product to cart much like a normal product: from the product list, or on the product page without scrolling down to offers. By default, CS-Cart Multi-Vendor will choose the best offer based on the price and availability. If you use the \"Vendor rating\" add-on, its settings allow you to pick a product based on the rating rather than price.<br><br>To allow this, go to the settings of the \"Common products for vendors\" add-on and enable the \"Buy a default common product\" setting.<br><br><a target=\"_blank\" href=\"[settings_url]\" class=\"btn\">Go to settings</a>"
+msgstr "Wcześniej klienci musieli otworzyć stronę produktu i wybrać jedną z ofert sprzedawców. Teraz będą mogli dodać wspólny produkt do koszyka, podobnie jak zwykły produkt: z listy produktów lub na stronie produktu bez przewijania w dół do ofert. Domyślnie CS-Cart Multi-Vendor wybierze najlepszą ofertę na podstawie ceny i dostępności. Jeśli korzystasz z dodatku \"Ocena sprzedawcy\", jego ustawienia pozwalają wybrać produkt na podstawie oceny, a nie ceny.<br><br>Aby to umożliwić, przejdź do ustawień dodatku \"Wspólne produkty dla sprzedawców\" i włącz ustawienie \"Kup domyślny wspólny produkt\".<br><br><a target=\"_blank\" href=\"[settings_url]\" class=\"btn\">Przejdź do ustawień</a>"
+
+msgctxt "Languages::master_products.include_offers_from_multiple_sellers"
+msgid "To add the required number of items to cart, we had to include offers from multiple sellers. Some of them may come at different prices."
+msgstr "Aby dodać wymaganą liczbę produktów do koszyka, musieliśmy uwzględnić oferty od wielu sprzedawców. Niektóre z nich mogą mieć różne ceny."
+
